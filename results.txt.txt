@@ -1,0 +1,63 @@
+ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        results.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+__________________________________________________________
+
+$ git branch
+* master
+  new-branch
+_______________________________________________________
+$ git log
+commit fd7828a3814139a7e92178161a701f590ad295e1 (HEAD -> master, ropo-22/main)
+Author: 11Olenka <167447997+11Olenka@users.noreply.github.com>
+Date:   Sat Jun 22 15:40:20 2024 +0300
+
+    Create style.css
+
+commit d9ffc264e7f1e0cd56a36a7c5894cf82367acfb9
+Merge: 612db52 47f8a17
+Author: 11Olenka <167447997+11Olenka@users.noreply.github.com>
+Date:   Sat Jun 22 15:37:30 2024 +0300
+
+    Merge pull request #2 from 11Olenka/master
+
+    змінений заголовок
+
+commit 47f8a17f271db9ea84dab99ea605af9bc7c993e6 (ropo-22/master)
+Merge: 4d43c2e 612db52
+Author: 11Olenka <olenka_doghouse@i.ua>
+Date:   Sat Jun 22 15:35:51 2024 +0300
+
+    вирішено конфлікт
+
+commit 4d43c2e31bfe7d537483da190691506143160c39
+
+_______________________________________________
+
+commit d9ffc264e7f1e0cd56a36a7c5894cf82367acfb9
+Merge: 612db52 47f8a17
+Author: 11Olenka <167447997+11Olenka@users.noreply.github.com>
+Date:   Sat Jun 22 15:37:30 2024 +0300
+
+    Merge pull request #2 from 11Olenka/master
+
+    змінений заголовок
+
+commit 47f8a17f271db9ea84dab99ea605af9bc7c993e6 (ropo-22/master)
+Merge: 4d43c2e 612db52
+Author: 11Olenka <olenka_doghouse@i.ua>
+Date:   Sat Jun 22 15:35:51 2024 +0300
+
+    вирішено конфлікт
+
+commit 612db52878eb05610faedb7642fe0be84558e14a
+Merge: 68c874c 90a8338
+Author: 11Olenka <167447997+11Olenka@users.noreply.github.com>
+Date:   Sat Jun 22 15:23:43 2024 +0300
+
+    Merge pull request #1 from 11Olenka/new-branch
+
